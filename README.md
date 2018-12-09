@@ -1,16 +1,16 @@
 # ML-automation
 
-This presentation describes high-level architecture of real-time Machine Learning automation.
-The system allows :
+This presentation describes the high-level architecture of real-time Machine Learning automation.
+The system allows:
 * collect real-time events from different devices (IoT devices, machines, etc)
 * apply previously developed ML models to the data (make predictions)
-* react on them (send notifications or managing commands to machines)
+* react on anomalies or prediction of insufficient behaviour (send notifications or managing commands to machines)
 * store incoming data in Data Lake for further analysis or training
 * train new ML models or make predictions on off-line data
 * analyse data using traditional reporting tools
 
 
-Picture:
+![ML Architecture](ML-architecture.png)
 
 
 ## 1. Capture real-time events
